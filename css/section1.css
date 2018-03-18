@@ -1,0 +1,78 @@
+.section1 {
+	border: 1px solid #86B4D6;
+	background: #F2F2F2;
+	padding: 15px;
+}
+
+.section1-block {
+	box-sizing: border-box;
+	margin: 15px;
+	float: left;
+	width: calc(100% / 3 - 30px);
+	min-height: 182px;
+	border: 1px solid #ECC191;
+}
+
+.section1-block:first-child {
+	background-image: url(../img/cycling.jpg);
+	background-size: 100% 100%;
+	background-clip: border-box;
+}
+
+.section1-block:nth-child(2) {
+	background-image: url(../img/fishing.jpg);
+	background-size: 100% 100%;
+	background-clip: border-box;
+}
+
+.section1-block:nth-child(3) {
+	background-image: url(../img/football.jpg);
+	background-size: 100% 100%;
+	background-clip: border-box;
+}
+
+.section1-block:nth-child(4) {
+	background-image: url(../img/swimming.jpg);
+	background-size: 100% 100%;
+	background-clip: border-box;
+}
+
+.section1-block:nth-child(5) {
+	background-image: url(../img/yoga.jpg);
+	background-size: 100% 100%;
+	background-clip: border-box;
+}
+
+.section1-block:last-child {
+	background-image: url(../img/cinema.jpg);
+	background-size: 100% 100%;
+	background-clip: border-box;
+}
+
+.section1-block:hover {
+	border: 1px solid #384BA0;
+	box-shadow: 0 0 0 200px rgba(0,0,0,0.6) inset;
+}
+
+.section1-button {
+	visibility: hidden;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+	color: #141C36;
+	background: #ECC191;
+	border: 3px solid #141C36;
+	border-radius: 6px;
+	margin: auto;
+	margin-top: 68px;
+}
+
+.section1-block:hover button.section1-button {
+	display: block;
+	visibility: visible;
+}
+
+.section1-button:hover {
+	background: #FFD99F;
+	transition-duration: 0.2s;
+}
