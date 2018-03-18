@@ -1,0 +1,78 @@
+.section2 {
+	border: 1px solid #86B4D6;
+	background: #F2F2F2;
+	padding: 10px;
+}
+
+.section2-leftblock {
+	width: calc(50% - 20px);
+	float: left;
+	border: 1px solid #ECC191;
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 10px;
+}
+
+.section2-leftblock--img {
+	background: url(../img/downhill.jpg);
+	background-size: 100% 100%;
+	height: 267px;
+}
+
+.section2-rightblock {
+	width: calc(50% - 20px);
+	float: right;
+	border: 1px solid #ECC191;
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 10px;
+}
+
+.section2-rightblock--img {
+	background: url(../img/rafting.jpg);
+	background-size: 100% 100%;
+	height: 281px;
+}
+
+.section2-leftblock--img:hover,
+.section2-rightblock--img:hover {
+	box-shadow: 0 0 0 200px rgba(0,0,0,0.6) inset;
+}
+
+.section2-text1 {
+	padding-top: 5px;
+	text-align: justify;
+}
+
+.section2-text2 {
+	padding-bottom: 13px;
+	text-align: justify;
+}
+
+.section2-button {
+	visibility: hidden;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+	color: #141C36;
+	background: #86B4D6;
+	border: 3px solid #141C36;
+	border-radius: 6px;
+	margin: auto;
+	margin-top: 110px;
+}
+
+.section2-leftblock--img:hover button.section2-button,
+.section2-rightblock--img:hover button.section2-button {
+	display: block;
+	visibility: visible;
+}
+
+.section2-button:hover {
+	background: #9BD0F7;
+	transition-duration: 0.2s;
+}
+
+.padding-bottom {
+	margin-bottom: 80px;
+}
