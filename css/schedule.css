@@ -1,0 +1,20 @@
+.schedule-section {
+	background: #F2F2F2;
+	min-height: 90vh;
+	padding: 20px;
+}
+
+.schedule-section--header1 {
+	text-decoration: none;
+	color: #384BE2;
+}
+
+.schedule-section--header2 {
+	padding: 10px;
+	margin: auto;
+	background: #FACC9A;
+}
+
+.schedule-section--img {
+	max-width: 500px;
+}
