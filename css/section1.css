@@ -2,14 +2,20 @@
 	border: 1px solid #86B4D6;
 	background: #F2F2F2;
 	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 0 auto;
 }
 
 .section1-block {
 	box-sizing: border-box;
 	margin: 15px;
 	width: calc(100% / 3 - 30px);
-	min-height: 182px;
+	height: 182px;
 	border: 1px solid #ECC191;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .section1-block:first-child {
@@ -51,6 +57,7 @@
 .section1-block:hover {
 	border: 1px solid #384BA0;
 	box-shadow: 0 0 0 200px rgba(0,0,0,0.6) inset;
+	cursor: pointer;
 }
 
 .section1-button {
@@ -62,12 +69,9 @@
 	background: #ECC191;
 	border: 3px solid #141C36;
 	border-radius: 6px;
-	margin: auto;
-	margin-top: 68px;
 }
 
 .section1-block:hover button.section1-button {
-	display: block;
 	visibility: visible;
 }
 
