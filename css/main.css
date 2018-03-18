@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	background: #ECC191;
+}
+
+.main {
+	position: relative;
+	min-height: 100vh;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: '';
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
