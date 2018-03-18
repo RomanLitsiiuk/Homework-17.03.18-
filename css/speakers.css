@@ -1,0 +1,23 @@
+.speakers-section {
+	background: #F2F2F2;
+	border: 1px solid #9BD0F7;
+	padding: 20px;
+	min-height: 80vh;
+}
+.header-coaches {
+	text-decoration: none;
+	color: #384BE2;
+}
+
+.header-coaches--h1 {
+	padding: 20px 0;
+}
+
+.header-coaches--h1:hover {
+	text-decoration: underline;
+}
+
+.header-coaches--h2 {
+	padding: 10px;
+	background: #ECC191;
+}
