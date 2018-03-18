@@ -6,15 +6,18 @@
 html,
 body {
 	background: #ECC191;
+	height: 100%;
 }
 
 .main {
-	position: relative;
-	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	flex: 1 0 auto;
 }
 
 .container {
-	max-width: 960px;
+	width: 960px;
 	margin: 0 auto;
 	box-sizing: border-box;
 }

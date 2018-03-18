@@ -7,7 +7,6 @@
 .section1-block {
 	box-sizing: border-box;
 	margin: 15px;
-	float: left;
 	width: calc(100% / 3 - 30px);
 	min-height: 182px;
 	border: 1px solid #ECC191;

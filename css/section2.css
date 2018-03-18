@@ -6,7 +6,6 @@
 
 .section2-leftblock {
 	width: calc(50% - 20px);
-	float: left;
 	border: 1px solid #ECC191;
 	box-sizing: border-box;
 	margin: 10px;
@@ -21,7 +20,6 @@
 
 .section2-rightblock {
 	width: calc(50% - 20px);
-	float: right;
 	border: 1px solid #ECC191;
 	box-sizing: border-box;
 	margin: 10px;
