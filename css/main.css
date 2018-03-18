@@ -18,13 +18,3 @@ body {
 	margin: 0 auto;
 	box-sizing: border-box;
 }
-
-.clearfix:before,
-.clearfix:after {
-	content: '';
-	display: table;
-}
-
-.clearfix:after {
-	clear: both;
-}
