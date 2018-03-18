@@ -2,8 +2,9 @@
 	background: #F2F2F2;
 	border: 1px solid #9BD0F7;
 	padding: 20px;
-	min-height: 80vh;
+	height: 100%;
 }
+
 .header-coaches {
 	text-decoration: none;
 	color: #384BE2;
